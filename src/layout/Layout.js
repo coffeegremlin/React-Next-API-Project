@@ -1,3 +1,4 @@
+import LandingElement from '../pages/LandingElement'
 import ParticleBackground from '../ParticleBackground'
 import { Container } from './LayoutStyles'
 
@@ -6,7 +7,8 @@ import { Container } from './LayoutStyles'
 export const Layout = ({children}) => {
     return (
       <Container>
-        <ParticleBackground />
+        {/* <ParticleBackground /> */}
+        <LandingElement/>
        {/* <Header/> */}
        <main>{children}</main> 
        {/* <Footer/> */}

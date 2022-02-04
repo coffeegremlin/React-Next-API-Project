@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import ParticleBackground from '../ParticleBackground'
 import { Layout } from '../layout/Layout'
 import About from './About'
+import LandingElement from './LandingElement'
 
 
 

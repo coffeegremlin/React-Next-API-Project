@@ -108,6 +108,25 @@
   margin-left: 0.5rem;
 }
 
+
+
+
+
+#world {
+  margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+/*       background: black; */
+/*       text-align: center; */
+      outline: none;
+  width: 100%;
+  height: 100vh;
+        background: black;
+  left: calc(50% - 325px);
+  position: absolute;
+}
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
